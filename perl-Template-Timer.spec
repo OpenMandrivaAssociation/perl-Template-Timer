@@ -14,7 +14,6 @@ Source:		%{realname}-%{version}.tar.bz2
 BuildRequires:	perl-devel
 BuildRequires:  perl-Template-Toolkit
 BuildArch:	noarch
-Buildroot:	%{_tmppath}/%{name}-root
 
 %description
 Template::Timer provides inline timings of the template processing througout
