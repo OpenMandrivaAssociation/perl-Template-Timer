@@ -1,7 +1,7 @@
 %define realname Template-Timer
 %define name perl-%{realname}
-%define version 0.04
-%define release %mkrel 5
+%define version 1.00
+%define release %mkrel 1
 
 Summary:	Rudimentary profiling for Template Toolkit
 Name:		%{name}
