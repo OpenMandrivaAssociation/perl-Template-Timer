@@ -44,3 +44,33 @@ rm -rf $RPM_BUILD_ROOT
 %clean
 rm -rf $RPM_BUILD_ROOT
 
+
+
+%changelog
+* Mon Sep 14 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.00-2mdv2010.0
++ Revision: 440695
+- rebuild
+
+* Sun Mar 08 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1.00-1mdv2009.1
++ Revision: 353017
+- update to new version 1.00
+
+* Wed Jul 23 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.04-5mdv2009.0
++ Revision: 241952
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon May 07 2007 Olivier Thauvin <nanardon@mandriva.org> 0.04-3mdv2008.0
++ Revision: 23835
+- rebuild
+
+
+* Tue Dec 20 2005 Nicolas Lécureuil <neoclust@mandriva.org> 0.04-2mdk
+- Add BuildRequires
+
+* Fri Dec 16 2005 Rafael Garcia-Suarez <rgarciasuarez@mandriva.com> 0.04-1mdk
+- Initial MDV RPM
+
