@@ -9,7 +9,7 @@ Version:	%{version}
 Release:	%{release}
 License:	Artistic/GPL
 Group:		Development/Perl
-URL:		http://search.cpan.org/dist/%{realname}/
+URL:		https://search.cpan.org/dist/%{realname}/
 Source:		%{realname}-%{version}.tar.bz2
 BuildRequires:	perl-devel
 BuildRequires:  perl-Template-Toolkit
